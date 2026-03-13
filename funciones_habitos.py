@@ -6,8 +6,14 @@ def registrar_habitos():
     Returns
     -------
     list: una lista de todas las actividades que haya ingresado el usuario
-
     '''
+   
+    pregunta = input("Quiere ingresar una actividad?" )
+    actividades = []
+    while pregunta == "si":
+        actividad = input("Ingresa una activadad: ")
+        actividades.append(actividad)
+
 
 def analizar_habitos(lista): 
     '''
