@@ -1,8 +1,12 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 13 15:32:17 2026
+#función 1: registrar_habitos()
 
-@author: manamoiseeff
-"""
+actividades = []
+
+def registrar_habitos():
+    pregunta = input("Quiere ingresar una actividad?" )
+
+    while pregunta == "si":
+        actividad = input("Ingresa una activadad: ")
+        actividades.append(actividad)
+
 
