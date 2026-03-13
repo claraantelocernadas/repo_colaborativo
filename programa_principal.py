@@ -5,5 +5,4 @@ Created on Fri Mar 13 15:32:23 2026
 
 @author: clari
 """
-
-hola como estas no entiendo nada
+print("hola esto no esta funcionando")
